@@ -1,3 +1,6 @@
 [submodule "libraries/Motor"]
 	path = libraries/Motor
 	url = https://github.com/Mathesu-veLi/Motor.git
+[submodule "libraries/HC_SR04"]
+	path = libraries/HC_SR04
+	url = https://github.com/Mathesu-veLi/HC_SR04.git
