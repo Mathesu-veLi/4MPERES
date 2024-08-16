@@ -1,0 +1,3 @@
+[submodule "libraries/Motor"]
+	path = libraries/Motor
+	url = https://github.com/Mathesu-veLi/Motor.git
