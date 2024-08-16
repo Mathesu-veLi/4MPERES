@@ -1,0 +1,21 @@
+sensor 1:
+	value: -2
+	side: very left
+sensor 2:
+	value: -1
+	side: left
+sensor 3: 
+	value: 0
+	side: center
+sensor 4:
+	value: 1
+	side: right
+sensor 5:
+	value: 2
+	side: very right
+
+when has line in sensor 1, go to left at 50% of default speed
+when has line in sensor 2, go to left at 25% of default speed
+when has line in sensor 3, go to forward
+when has line in sensor 4, go to right at 25% of default speed
+when has line in sensor 5, go to right at 50% of default speed
