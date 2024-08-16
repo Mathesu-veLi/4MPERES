@@ -1,0 +1,2 @@
+walk forward
+if obstacle -> go left -> go right-> watch for obstacle on right while obstacle on right -> keep moving, end of while -> turn right until line is found -> turn left
