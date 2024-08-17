@@ -13,9 +13,11 @@ void loop()
 {
   double obstacleDistance = sensor.cm_distance();
 
-  Serial.print("Distance: ");
-  Serial.println(obstacleDistance);
-  Serial.println("")
+  Serial.print("Has obstacle?: ");
+  Serial.print(obstacleDistance < 8 ? "true" : "false");
+  Serial.print(" (");
+  Serial.print(obstacleDistance);
+  Serial.println("cm)")
 
   delay(500);
 }
