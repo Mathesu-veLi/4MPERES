@@ -22,11 +22,11 @@ bool hasLine(int liner) {
 }
 
 void loop() {
-  bool hasLineInVeryLeft = hasLine(liners[0]) ? true : false;
-  bool hasLineInLeft = hasLine(liners[1]) ? true : false;
-  bool hasLineInCenter = hasLine(liners[2]) ? true : false;
-  bool hasLineInRight = hasLine(liners[3]) ? true : false;
-  bool hasLineInVeryRight = hasLine(liners[4]) ? true : false;
+  bool hasLineInVeryLeft = hasLine(liners[0]);
+  bool hasLineInLeft = hasLine(liners[1]);
+  bool hasLineInCenter = hasLine(liners[2]);
+  bool hasLineInRight = hasLine(liners[3]);
+  bool hasLineInVeryRight = hasLine(liners[4]);
   bool hasNoLine = !hasLineInVeryLeft && !hasLineInLeft && !hasLineInCenter && !hasLineInRight && !hasLineInVeryRight;
 
   if (hasLineInLeft || hasLineInVeryLeft) {
