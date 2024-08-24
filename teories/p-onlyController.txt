@@ -1,0 +1,11 @@
+very left = 2
+left = 1
+center (line) = 0
+right = -1
+very left = -2
+
+error = actual - target
+correction = error * kp
+Ki + correction in motor A
+Ki - correction in motor B
+
